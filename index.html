@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+  // Old single-page URLs (/#/connect etc.) -> real pages.
+  (function(){
+    var m = location.hash.match(/^#\/(\w*)$/);
+    if(!m) return;
+    var path = {connect:"/connect", welcome:"/welcome", shop:"/shop"}[m[1]];
+    if(path) location.replace(path);
+    else history.replaceState(null, "", "/");
+  })();
+  </script>
+  <title>Identity Transformation Coaching | Return to Radiance</title>
+  <meta name="description" content="Private 1:1 identity transformation coaching with Whitney Banks, Identity Architect. Deep transformation. Real results. For the woman who is done playing small.">
+  <link rel="canonical" href="https://return-to-radiance.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Return to Radiance">
+  <meta property="og:title" content="Identity Transformation Coaching | Return to Radiance">
+  <meta property="og:description" content="Private 1:1 identity transformation coaching with Whitney Banks, Identity Architect. Deep transformation. Real results. For the woman who is done playing small.">
+  <meta property="og:url" content="https://return-to-radiance.vercel.app/">
+  <meta property="og:image" content="https://return-to-radiance.vercel.app/assets/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Whitney Banks, Identity Architect">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@400;500;600&family=Parisienne&display=swap">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/site.js" defer></script>
+</head>
+<body>
+<div id="app">
+  <header class="topnav">
+    <div class="topnav-inner">
+      <a class="brand" href="/"><span class="brand-mark">RR</span><span class="brand-word">Return to<b>Radiance</b></span></a>
+      <div class="navlinks">
+        <a href="/" data-route="coaching" aria-current="page">Coaching</a>
+        <a href="/connect" data-route="connect">Stay Connected</a>
+        <a href="/welcome" data-route="welcome">Welcome</a>
+        <a href="/shop" data-route="shop">Shop</a>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="fade-in hero-section">
+      <div class="hero-split">
+        <div class="hero-photo-panel">
+          <picture>
+            <source type="image/webp" srcset="/assets/images/whitney-coaching.webp">
+            <img src="/assets/images/whitney-coaching.jpg" width="1500" height="2000" alt="Whitney Banks" style="object-position:center 18%;" fetchpriority="high" onerror="this.closest('.hero-photo-panel').remove()">
+          </picture>
+        </div>
+        <div class="hero-text-panel">
+          <div class="hero">
+            <div class="eyebrow">Private 1:1 Coaching</div>
+            <h1>Identity Transformation</h1>
+            <div class="script">Become the woman who lives the life.</div>
+            <div class="flourish-accent"><svg class="flourish" width="150" height="24" viewBox="0 0 150 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"><path d="M4 13c13-9 26 9 39 0s26-9 32 0 19 9 32 0 26-9 39 0"/><path d="M43 13c-2-5-8-5-10-1"/><path d="M107 13c2-5 8-5 10-1"/><g fill="currentColor" stroke="none"><circle cx="75" cy="9" r="1.5"/><circle cx="71" cy="13" r="1.5"/><circle cx="79" cy="13" r="1.5"/><circle cx="73" cy="16" r="1.5"/><circle cx="77" cy="16" r="1.5"/></g></svg></div>
+            <p class="lede">Private coaching. Deep transformation. Real results. This is for the woman who is done playing small.</p>
+            <div class="ctas">
+              <a class="btn" href="#apply-form">Apply to Work With Me</a>
+              <a class="btn btn-ghost" href="/connect">Not Ready? Stay Connected</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tight">
+      <div class="narrow frame-box reveal">
+        <h3>This Program Is For You If:</h3>
+        <ul class="qual-list">
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 2l1.8 6.6L20 12l-6.2 3.4L12 22l-1.8-6.6L4 12l6.2-3.4z"/></svg><span>You are ready to change your identity, not just your circumstances.</span></li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 2l1.8 6.6L20 12l-6.2 3.4L12 22l-1.8-6.6L4 12l6.2-3.4z"/></svg><span>You are committed to doing the deep work.</span></li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 2l1.8 6.6L20 12l-6.2 3.4L12 22l-1.8-6.6L4 12l6.2-3.4z"/></svg><span>You are ready to be fully supported, held accountable and guided.</span></li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 2l1.8 6.6L20 12l-6.2 3.4L12 22l-1.8-6.6L4 12l6.2-3.4z"/></svg><span>You are ready to become the woman you know you are meant to be.</span></li>
+        </ul>
+        <span class="script on-panel">I work with women who are ready for real transformation.</span>
+      </div>
+    </section>
+    <section>
+      <div class="wrap split reveal">
+        <div>
+          <div class="eyebrow">You Get 100% of Me</div>
+          <h2 style="font-size:32px;margin:10px 0 30px;color:var(--text);">What This Includes</h2>
+          <div class="item-row">
+            <span class="item-icon">&#9733;</span>
+            <div>
+              <h4>1:1 Private Coaching</h4>
+              <p>Personalized sessions focused on your identity, goals and next-level life.</p>
+            </div>
+          </div>
+          <div class="item-row">
+            <span class="item-icon">&#9737;</span>
+            <div>
+              <h4>Identity Coaching + Strategy</h4>
+              <p>We reprogram limiting beliefs, raise your standards and align every area of your life.</p>
+            </div>
+          </div>
+          <div class="item-row">
+            <span class="item-icon">&#10084;</span>
+            <div>
+              <h4>Nervous System + Body Support</h4>
+              <p>We regulate your body so your new identity feels safe to exist and thrive.</p>
+            </div>
+          </div>
+          <div class="item-row">
+            <span class="item-icon">&#9821;</span>
+            <div>
+              <h4>Rituals, Routines + Alignment</h4>
+              <p>Daily practices, environments and decisions that lock in your new identity.</p>
+            </div>
+          </div>
+          <div class="item-row">
+            <span class="item-icon">&#10022;</span>
+            <div>
+              <h4>Accountability + Support</h4>
+              <p>You don&rsquo;t do this alone. I&rsquo;m with you every step of the way.</p>
+            </div>
+          </div>
+        </div>
+        <div class="side-card">
+          <div class="eyebrow">Spots Are Extremely Limited</div>
+          <p>I only accept 3 new clients at a time &mdash; this is next-level identity work, not a cookie-cutter plan.</p>
+          <ol class="steps">
+            <li>Apply &mdash; complete the application.</li>
+            <li>Discovery call &mdash; we&rsquo;ll talk to see if we&rsquo;re a match.</li>
+            <li>Acceptance &mdash; if it&rsquo;s a yes, I personally invite you in.</li>
+            <li>Transformation &mdash; we begin your 1:1 journey.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <div class="tight">
+      <div class="ornament"><span></span><svg class="flourish" width="150" height="24" viewBox="0 0 150 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"><path d="M4 13c13-9 26 9 39 0s26-9 32 0 19 9 32 0 26-9 39 0"/><path d="M43 13c-2-5-8-5-10-1"/><path d="M107 13c2-5 8-5 10-1"/><g fill="currentColor" stroke="none"><circle cx="75" cy="9" r="1.5"/><circle cx="71" cy="13" r="1.5"/><circle cx="79" cy="13" r="1.5"/><circle cx="73" cy="16" r="1.5"/><circle cx="77" cy="16" r="1.5"/></g></svg><span></span></div>
+    </div>
+    <section class="quote">
+      <div class="wrap reveal">
+        <blockquote>&ldquo;I am not here to motivate you. <em>I am here to transform you.</em> So you can become the woman who lives the life.&rdquo;</blockquote>
+      </div>
+    </section>
+    <div class="tight">
+      <div class="ornament"><span></span><svg class="flourish" width="150" height="24" viewBox="0 0 150 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"><path d="M4 13c13-9 26 9 39 0s26-9 32 0 19 9 32 0 26-9 39 0"/><path d="M43 13c-2-5-8-5-10-1"/><path d="M107 13c2-5 8-5 10-1"/><g fill="currentColor" stroke="none"><circle cx="75" cy="9" r="1.5"/><circle cx="71" cy="13" r="1.5"/><circle cx="79" cy="13" r="1.5"/><circle cx="73" cy="16" r="1.5"/><circle cx="77" cy="16" r="1.5"/></g></svg><span></span></div>
+    </div>
+    <section class="hero-section reveal">
+      <div class="hero-split">
+        <div class="hero-photo-panel">
+          <picture>
+            <source type="image/webp" srcset="/assets/images/whitney-story.webp">
+            <img src="/assets/images/whitney-story.jpg" width="1500" height="2000" alt="Whitney Banks" style="object-position:center 20%;" loading="lazy" onerror="this.closest('.hero-photo-panel').remove()">
+          </picture>
+        </div>
+        <div class="hero-text-panel">
+          <div class="hero">
+            <div class="eyebrow">My Story. Why I Do This.</div>
+            <h2 style="font-size:clamp(28px,3.4vw,40px);margin:10px 0 22px;color:var(--text);">An unraveling. A remembering.</h2>
+            <ul class="timeline">
+              <li>
+                <span class="item-icon">&#9728;</span>
+                <div><span class="t-label">The Awakening</span>
+                  <p>Eight years ago, I had an awakening. Consciousness flooded my body and I woke up.</p>
+                </div>
+              </li>
+              <li>
+                <span class="item-icon">&#9784;</span>
+                <div><span class="t-label">The Unraveling</span>
+                  <p>I let go of everything that no longer fit who I was becoming &mdash; including every friend.</p>
+                </div>
+              </li>
+              <li>
+                <span class="item-icon">&#9819;</span>
+                <div><span class="t-label">The Rebuild</span>
+                  <p>I devoted myself to unprogramming my mind, regulating my body, and recreating my identity from the inside out.</p>
+                </div>
+              </li>
+              <li>
+                <span class="item-icon">&#10022;</span>
+                <div><span class="t-label">The Return</span>
+                  <p>I became the woman I once dreamed of being &mdash; and now I help other women do the same.</p>
+                </div>
+              </li>
+            </ul>
+            <div class="lived"><b>I&rsquo;ve lived through:</b> divorce, raising three teenagers, two soul connections, losing my mom, caring for my aunt for 12 years, and starting over more times than I can count.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="panel-band">
+      <div class="wrap reveal">
+        <div class="kicker-block">
+          <div class="eyebrow on-panel">The Identity Architect Method</div>
+          <h2>Here&rsquo;s What I Will Help You Do</h2>
+        </div>
+        <div class="method">
+          <div class="method-row">
+            <div class="method-num">01</div>
+            <div>
+              <h4>Release</h4>
+              <p>Stop creating from the old identity.</p>
+              <p class="core">You don&rsquo;t need to fix your life. You need to stop identifying with the version of you who created it.</p>
+            </div>
+          </div>
+          <div class="method-row">
+            <div class="method-num">02</div>
+            <div>
+              <h4>Design</h4>
+              <p>Decide who she is now.</p>
+              <p class="core">Your reality follows your identity. Design the woman first.</p>
+            </div>
+          </div>
+          <div class="method-row">
+            <div class="method-num">03</div>
+            <div>
+              <h4>Embody</h4>
+              <p>Think, choose, speak and move as her &mdash; before the evidence appears.</p>
+              <p class="core">Stop waiting for your life to change before you become her. Become her, and let life catch up.</p>
+            </div>
+          </div>
+          <div class="method-row">
+            <div class="method-num">04</div>
+            <div>
+              <h4>Install</h4>
+              <p>Reprogram the identity daily.</p>
+              <p class="core">Repetition makes the unfamiliar identity familiar. Familiar eventually becomes automatic.</p>
+            </div>
+          </div>
+          <div class="method-row">
+            <div class="method-num">05</div>
+            <div>
+              <h4>Receive</h4>
+              <p>Let the new reality become normal.</p>
+              <p class="core">The goal isn&rsquo;t to manifest it once. The goal is to become the woman for whom it is normal.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap reveal">
+        <div class="kicker-block">
+          <div class="eyebrow">When Your Identity Changes</div>
+          <h2>Everything Changes</h2>
+        </div>
+        <div class="changes">
+          <div class="change-cell">
+            <span class="item-icon">&#10022;</span>
+            <span class="eyebrow on-panel" style="display:block;margin-top:14px;">Your Mind</span>
+            <p>You trust yourself. You stop second-guessing and start knowing.</p>
+          </div>
+          <div class="change-cell">
+            <span class="item-icon">&#10084;</span>
+            <span class="eyebrow on-panel" style="display:block;margin-top:14px;">Your Body</span>
+            <p>You feel safe in your body. Your energy is steady.</p>
+          </div>
+          <div class="change-cell">
+            <span class="item-icon">&#9819;</span>
+            <span class="eyebrow on-panel" style="display:block;margin-top:14px;">Your Identity</span>
+            <p>Unshakable self-worth, high standards, magnetic energy. You are her.</p>
+          </div>
+          <div class="change-cell">
+            <span class="item-icon">&#10003;</span>
+            <span class="eyebrow on-panel" style="display:block;margin-top:14px;">Your Reality</span>
+            <p>Better relationships, aligned clients, more income &mdash; opportunities find you.</p>
+          </div>
+          <div class="change-cell">
+            <span class="item-icon">&#9728;</span>
+            <span class="eyebrow on-panel" style="display:block;margin-top:14px;">Your Life</span>
+            <p>You wake up excited and live on your terms.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="tight">
+      <div class="ornament"><span></span><svg class="flourish" width="150" height="24" viewBox="0 0 150 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"><path d="M4 13c13-9 26 9 39 0s26-9 32 0 19 9 32 0 26-9 39 0"/><path d="M43 13c-2-5-8-5-10-1"/><path d="M107 13c2-5 8-5 10-1"/><g fill="currentColor" stroke="none"><circle cx="75" cy="9" r="1.5"/><circle cx="71" cy="13" r="1.5"/><circle cx="79" cy="13" r="1.5"/><circle cx="73" cy="16" r="1.5"/><circle cx="77" cy="16" r="1.5"/></g></svg><span></span></div>
+    </div>
+    <section id="apply-form" class="tight">
+      <div class="narrow reveal">
+        <div class="kicker-block">
+          <div class="eyebrow">Begin Your Return</div>
+          <h2 style="color:var(--text);">Apply to Work With Whitney</h2>
+          <p style="color:var(--text-soft);margin-top:14px;">This is an investment in your new life. Tell me a little about where you are &mdash; I read every application myself.</p>
+        </div>
+        <div class="form-wrap" id="apply-form-wrap">
+          <form id="apply-form-el" novalidate>
+            <div class="two-col">
+              <div class="field">
+                <label for="ap-name">Full Name</label>
+                <input id="ap-name" name="name" type="text" required autocomplete="name">
+              </div>
+              <div class="field">
+                <label for="ap-email">Email</label>
+                <input id="ap-email" name="email" type="email" required autocomplete="email">
+              </div>
+            </div>
+            <div class="field">
+              <label for="ap-ig">Instagram Handle (optional)</label>
+              <input id="ap-ig" name="instagram" type="text" placeholder="@yourname">
+            </div>
+            <div class="field">
+              <label for="ap-change">What area of your life do you most want to transform right now?</label>
+              <textarea id="ap-change" name="change_area" required></textarea>
+            </div>
+            <div class="field">
+              <label for="ap-ready">What&rsquo;s made you ready for this now?</label>
+              <textarea id="ap-ready" name="ready_reason" required></textarea>
+            </div>
+            <div class="field">
+              <label for="ap-commit">Are you ready to invest financially and personally in this transformation?</label>
+              <select id="ap-commit" name="commit" required>
+                <option value="" disabled selected>Select one</option>
+                <option value="yes">Yes, I&rsquo;m ready</option>
+                <option value="not-yet">Not yet, but I want to learn more</option>
+              </select>
+            </div>
+            <button class="btn" type="submit" style="width:100%;justify-content:center;">Submit Application</button>
+            <p class="form-note">Applications are reviewed personally. If it&rsquo;s a fit, you&rsquo;ll be invited to a discovery call.</p>
+            <div class="form-status" id="apply-status" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap foot-inner">
+      <div class="foot-tagline">Change the woman. <b>Change the reality.</b></div>
+      <div class="foot-links">
+        <a href="https://instagram.com/idenityarchitect_whitney" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.youtube.com/@ReturnToRadianceVault" target="_blank" rel="noopener">Return to Radiance Vault</a>
+        <a href="/">Work With Whitney</a>
+        <a href="/connect">Join the List</a>
+      </div>
+      <div class="foot-copy">Return to Radiance &mdash; Whitney Banks, Identity Architect</div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
